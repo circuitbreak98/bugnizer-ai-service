@@ -43,3 +43,30 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Additional Flutter/Dart specific
+*.lock
+!pubspec.lock
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+*.config.dart
+
+# iOS specific
+ios/Podfile.lock
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/flutter_export_environment.sh
+
+# Android specific
+android/local.properties
+
+# VSCode specific
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Coverage
+coverage/
